@@ -1,6 +1,6 @@
 cask "kumiko" do
-  version "0.4.0"
-  sha256 "8b5238713632d6dd80d5d78c1b6d433943997a37bedac50c8583bccf9d849ce2"
+  version "0.4.1"
+  sha256 "04473e17e9f5fdeec802bbcbce52e9fbc05bf28f8a8aa2cb5c14428f77063032"
 
   url "https://github.com/aimuzov/kumiko/releases/download/v#{version}/Kumiko-#{version}.zip"
   name "kumiko"
