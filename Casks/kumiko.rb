@@ -1,6 +1,6 @@
 cask "kumiko" do
-  version "0.4.2"
-  sha256 "98ef5d009d95eba2e5cc3e515bdad89faa8c5a4b3355fe9b676112fef71b3f3f"
+  version "0.5.0"
+  sha256 "6ea5bc32321500ad195f215eca3f50b08e2394657c4f3a7817de47738a7fdf35"
 
   url "https://github.com/aimuzov/kumiko/releases/download/v#{version}/Kumiko-#{version}.zip"
   name "kumiko"
@@ -12,6 +12,7 @@ cask "kumiko" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "Kumiko.app"
